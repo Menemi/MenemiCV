@@ -15,7 +15,7 @@
 <div class="wrapper">
     <div class="content">
         <header>
-            <h1><a href="index.html">Menemi's CV</a></h1>
+            <h1><a href="index.html" class="clear-link">Menemi's CV</a></h1>
         </header>
 
         <main>
@@ -24,45 +24,67 @@
                      class="avatar-profile"
                      src="images/avatar.png"
                 >
-                <div class="main-user-data" style="margin-bottom: 30px">
+                <div class="main-user-data">
                     <h3>Даниил Титов</h3>
                     <h4>Menemi</h4>
                 </div>
-                <p><a href="https://t.me/Menemi" target="_blank">Telegram</a></p>
-                <p><a href="https://github.com/1Menemi1" target="_blank">Github</a></p>
-                <p>Email: danila.titov1210@yandex.ru</p>
-                <p>Russia, Saint Petersburg</p>
-                <p>ITMO University</p>
+                <div class="aside-content">
+                    <a href="https://t.me/Menemi" class="clear-link underline" target="_blank">
+                        <img src="images/telegram.png" alt="telegram" class="aside-picture">
+                    </a>
+                    <a href="https://t.me/Menemi" class="clear-link underline" target="_blank">
+                        <p>Telegram</p>
+                    </a>
+                </div>
+                <div class="aside-content">
+                    <a href="https://github.com/1Menemi1" class="clear-link underline" target="_blank">
+                        <img src="images/github.png" alt="github" class="aside-picture">
+                    </a>
+                    <a href="https://github.com/1Menemi1" class="clear-link underline" target="_blank">
+                        <p>Github</p>
+                    </a>
+                </div>
+                <div class="aside-content">
+                    <img src="images/email.png" alt="email" class="aside-picture">
+                    <p>danila.titov1210@yandex.ru</p>
+                </div>
+                <div class="aside-content">
+                    <img src="images/location.png" alt="location" class="aside-picture">
+                    <p>Russia, Saint Petersburg</p>
+                </div>
+                <div class="aside-content">
+                    <img src="images/university.png" alt="university" class="aside-picture">
+                    <p>ITMO University</p>
+                </div>
             </aside>
             <div class="main-area-profile">
                 <section class="heading-profile" id="tabs">
-                    <a href="index.html">About</a>
-                    <a href="skills.html">Skills</a>
-                    <a href="projects.html">Projects</a>
+                    <a href="index.html" class="tab">About</a>
+                    <a href="skills.html" class="tab">Skills</a>
+                    <a href="projects.html" class="tab">Projects</a>
                 </section>
                 <section class="menu-profile">
                     <h2>Ключевые навыки</h2>
-                    <div class="subcontent">
+                    <div class="sub-content">
                         <h5 class="description-area">Знание языков</h5>
                         <div class="content-area">
-                            <h4 style="color: #c4c4c4"><b style="color: #ffffff">Русский</b> — родной</h4>
-                            <h4 style="color: #c4c4c4"><b style="color: #ffffff">Англйский</b> — B2 — Средне-продвинутый
+                            <h4 class="color-c4c4c4"><b class="color-ffffff">Русский</b> — родной</h4>
+                            <h4 class="color-c4c4c4"><b class="color-ffffff">Английский</b> — B2 — Средне-продвинутый
                             </h4>
                         </div>
                     </div>
-                    <div class="subcontent-skills">
+                    <div class="sub-content-skills">
                         <h5 class="description-area">Навыки</h5>
-                        <div class="content-area skills">
-                            <h4>C#</h4>
-                            <h4>Git</h4>
-                            <h4>Python</h4>
-                            <h4>Typescript</h4>
-                            <h4>Java</h4>
-                            <h4>C++</h4>
-                            <h4>MS SQL</h4>
-                            <h4>SQLite</h4>
-                            <h4>MySQL</h4>
-                        </div>
+                        <ul class="content-area skills">
+                                <li>C#</li>
+                                <li>Git</li>
+                                <li>Python</li>
+                                <li>Typescript</li>
+                                <li>Java</li>
+                                <li>MS SQL</li>
+                                <li>SQLite</li>
+                                <li>MySQL</li>
+                        </ul>
                     </div>
                 </section>
             </div>
