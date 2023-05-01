@@ -3,36 +3,34 @@ body {
     height: 100%;
 }
 
+@font-face {
+    font-family: "Dodo Rounded", sans-serif;
+    src: url("fonts/Dodo Rounded.ttf");
+}
+
 body {
     padding: 0 30px;
     font-size: 20px;
     line-height: 26px;
-    font-family: "Dodo Rounded", sans-serif;
+    font-family: Dodo Rounded, sans-serif;
     background-color: #22272e;
     color: #ffffff;
 }
 
 h1 {
-    font-size: 4.375rem;
+    font-size: 4.4rem;
 }
 
 h2 {
-    font-size: 2.1875rem;
+    font-size: 2.2rem;
 }
 
 h3 {
-    font-size: 1.5625rem;
+    font-size: 1.5rem;
 }
 
 h4 {
-    font-size: 1.125rem;
-}
-
-h1,
-h2,
-h3,
-h4 {
-    font-family: "Dodo Rounded", serif;
+    font-size: 1.1rem;
 }
 
 .clear-link {
@@ -146,7 +144,8 @@ main {
     width: 135px;
     margin-right: 10px;
     text-align: end;
-    color: #c4c4c4;
+    color: #ffffff;
+    font-size: 1rem;
 }
 
 .content-area {
@@ -154,15 +153,23 @@ main {
     margin-left: 10px;
 }
 
-.content-area h4 {
-    margin-top: 28px;
+.content-area .university {
+    font-size: 1.5rem;
+    color: #ffffff;
 }
 
-.color-c4c4c4 {
+.content-area p {
+    margin: 16px 0 0 0;
+    font-size: 1.1rem;
     color: #c4c4c4;
 }
 
-.color-ffffff {
+.part-highlighted-text {
+    color: #c4c4c4;
+    font-size: 1.1rem;
+}
+
+.part-highlighted-text b {
     color: #ffffff;
 }
 
@@ -183,7 +190,6 @@ main {
 
 ul {
     display: flex;
-    margin: 27.722px 0 0 0;
     list-style-type: none;
     padding: 0;
 }
@@ -192,6 +198,7 @@ li {
     background-color: #2b3038;
     padding: 5px;
     border-radius: 5%;
+    font-size: 1.1rem;
 }
 
 .aside-profile {
@@ -224,3 +231,9 @@ li {
     width: 30px;
     height: 30px;
 }
+
+/*h1 - 70.4px   - 4.4rem*/
+/*h2 - 35.2px   - 2.2rem*/
+/*h3 - 24px     - 1.5rem*/
+/*h4 - 17.6px   - 1.1rem*/
+/*h5 - 16px     - 1rem*/
