@@ -5,7 +5,7 @@ body {
 
 @font-face {
     font-family: "Dodo Rounded", sans-serif;
-    src: url("fonts/Dodo Rounded.ttf");
+    src: url("/fonts/Dodo Rounded.ttf");
 }
 
 body {
