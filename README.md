@@ -1,5 +1,9 @@
-# ХАЙПОВАЯ РИДМИШКА
+# Menemi's CV
 
-## ХАЙПОВЫЙ ПОДЗАГОЛОВОК ВТОРОГО УРОВНЯ
+## Contacts
 
-### САМЫЙ ХАЙП [ТУТ](https://youtu.be/dQw4w9WgXcQ)
+- [Telegram](https://t.me/Menemi)
+- [Github](https://github.com/1Menemi1)
+- danila.titov1210@yandex.ru
+- Russia, Saint Petersburg
+- ITMO University
