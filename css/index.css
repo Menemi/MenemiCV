@@ -90,7 +90,7 @@ main {
     padding: 10px 0 10px 0;
 }
 
-#tabs .active {
+.tab.active {
     border-bottom: 3px solid #ec775c;
 }
 
@@ -170,7 +170,7 @@ main {
     color: #ffffff;
 }
 
-.less-headers-line-height {
+.description-title, .description-subtitle {
     margin-bottom: 0;
 }
 
