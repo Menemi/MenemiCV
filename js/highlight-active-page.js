@@ -1,5 +1,5 @@
 function handleLocationChange(location) {
-    let element = document.querySelectorAll("body div div main div section a");
+    let element = document.querySelectorAll(".tab");
 
     for (let i = 0; i < element.length; i++) {
         if (location === element[i].href) {

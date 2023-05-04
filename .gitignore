@@ -4,7 +4,6 @@
 node_modules/
 /build
 /vendor
-#/bower_components
 /_site
 
 ehthumbs.db
@@ -12,7 +11,6 @@ Thumbs.db
 
 *.sublime-project
 *.sublime-workspace
-*.komodoproject
 *.log
 *.sql
 *.sqlite
