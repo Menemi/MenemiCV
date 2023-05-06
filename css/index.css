@@ -331,7 +331,7 @@ li {
     display: none;
 }
 
-@media screen and (max-width: 1225px) {
+@media screen and (max-width: 1245px) {
     .aside-profile {
         display: none;
     }
@@ -341,7 +341,7 @@ li {
     }
 }
 
-@media screen and (max-width: 944px) {
+@media screen and (max-width: 963px) {
     .pinned-project {
         width: 40%;
     }
@@ -367,7 +367,7 @@ li {
     }
 }
 
-@media screen and (max-width: 824px) {
+@media screen and (max-width: 842px) {
     .pinned-project {
         width: 37.5%;
     }
@@ -423,5 +423,21 @@ li {
 
     .heading-profile {
         justify-content: space-between;
+    }
+}
+
+@media screen and (max-height: 450px) {
+    header {
+        display: none;
+    }
+
+    .heading-profile {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .heading-profile a {
+        font-size: 18px;
     }
 }
