@@ -173,6 +173,7 @@ main {
 
 .description-title, .description-subtitle {
     margin-bottom: 0;
+    line-height: 2rem;
 }
 
 .skills {
@@ -341,21 +342,9 @@ li {
     height: 50px;
 }
 
-.contacts-tab {
-    display: none;
-}
-
-.short-university {
-    display: none;
-}
-
 @media screen and (max-width: 1245px) {
     .aside-profile {
         display: none;
-    }
-
-    .contacts-tab {
-        display: block;
     }
 }
 
@@ -402,15 +391,7 @@ li {
 }
 
 @media screen and (max-width: 745px) {
-    .university {
-        display: none;
-    }
-
-    .short-university {
-        display: block;
-    }
-
-    .content-area .short-university {
+    .content-area {
         font-size: 1.5rem;
         color: #ffffff;
     }
