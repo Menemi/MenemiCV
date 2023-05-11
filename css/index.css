@@ -310,6 +310,10 @@ li {
     border-radius: 15px;
 }
 
+.contacts-title {
+    font-size: 45px;
+}
+
 .contacts-main-area {
     display: flex;
     justify-content: space-around;
