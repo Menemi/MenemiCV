@@ -411,6 +411,14 @@ li {
     border-radius: 15px;
 }
 
+.light .activity-time-table-link {
+    display: none;
+    background-color: rgba(246, 248, 250, 0.9);
+    padding: 20px;
+    border: 3px solid #818181;
+    border-radius: 15px;
+}
+
 .contacts-title {
     font-size: 45px;
 }
@@ -500,7 +508,15 @@ li {
         display: none;
     }
 
+    .light .activity-time-table-light {
+        display: none;
+    }
+
     .activity-time-table-link {
+        display: flex;
+    }
+
+    .light .activity-time-table-link {
         display: flex;
     }
 }
@@ -552,7 +568,7 @@ li {
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
     header h1 {
         font-size: 3.3rem;
     }
