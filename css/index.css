@@ -491,10 +491,6 @@ li {
         line-height: normal;
         flex-direction: column;
     }
-
-    .light .sub-content-skills {
-        color: #000000;
-    }
 }
 
 @media screen and (max-width: 842px) {
@@ -525,10 +521,6 @@ li {
     .content-area {
         font-size: 1.5rem;
         color: #ffffff;
-    }
-
-    .light .content-area {
-        color: #000000;
     }
 
     .contacts-main-area {
