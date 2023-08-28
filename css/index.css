@@ -35,6 +35,17 @@ h4 {
     font-size: 1.1rem;
 }
 
+.aside-single-line {
+    display: flex;
+    align-items: center;
+}
+
+.contacts-single-line {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
 .clear-link {
     color: #ffffff;
     text-decoration-line: none;
@@ -312,6 +323,7 @@ li {
     padding: 20px;
     border: 3px solid #424242;
     border-radius: 15px;
+    justify-content: center;
 }
 
 .light .pinned-project {
@@ -319,16 +331,29 @@ li {
     border: 3px solid #818181;
 }
 
-.project-header,
-.project-footer {
+.project-header {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
+.project-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.project-footer-single-line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.project-footer-single-line p {
+    margin: 0;
+}
+
 .repository-picture {
-    width: 30px;
-    height: 30px;
     margin-right: 10px;
 }
 
@@ -357,6 +382,10 @@ li {
     background-color: #3178c6;
 }
 
+.js-color-circle {
+    background-color: #f1e05a;
+}
+
 .cpp-color-circle {
     background-color: #f34b7d;
 }
@@ -374,12 +403,12 @@ li {
     display: none;
 }
 
-.theme-icon-light {
-    display: none;
-}
-
 .theme-icon {
     display: block;
+}
+
+.theme-icon-light {
+    display: none;
 }
 
 .light .theme-icon-light {
@@ -539,6 +568,10 @@ li {
     .contacts-picture {
         margin-right: 10px;
         margin-left: 0;
+    }
+
+    .contacts-single-line {
+        flex-direction: row;
     }
 }
 

@@ -9,6 +9,7 @@
     <link href="images/beer.png" rel="icon">
     <link href="css/index.css" rel="stylesheet">
     <script src="js/highlight-active-page.js"></script>
+    <script src="node_modules/boxicons/dist/boxicons.js"></script>
 </head>
 
 <body>
@@ -17,12 +18,10 @@
         <header>
             <h1><a href="index.html" class="clear-link">Menemi's CV</a></h1>
             <div>
-                <div class="section gallery">
-                    <a href="#" class="theme-switcher">
-                        <img src="images/dd.png" class="theme-icon" alt="theme-pic">
-                        <img src="images/ll.png" class="theme-icon-light" alt="theme-pic">
-                    </a>
-                </div>
+                <a href="#" class="theme-switcher">
+                    <box-icon class="theme-icon" name="moon" color="#ffffff" size="lg"></box-icon>
+                    <box-icon class="theme-icon-light" name="sun" color="#3b3b3b" size="lg"></box-icon>
+                </a>
             </div>
         </header>
 
@@ -37,31 +36,37 @@
                     <h4>Menemi</h4>
                 </div>
                 <div class="aside-content">
-                    <a href="https://t.me/Menemi" class="clear-link underline" target="_blank">
-                        <img src="images/telegram.png" alt="telegram" class="aside-picture">
-                    </a>
-                    <a href="https://t.me/Menemi" class="clear-link underline" target="_blank">
+                    <a href="https://t.me/Menemi" class="aside-single-line clear-link underline" target="_blank">
+                        <box-icon class="aside-picture theme-icon" name="telegram" type="logo"
+                                  color="#ffffff"></box-icon>
+                        <box-icon class="aside-picture theme-icon-light" name="telegram" type="logo"
+                                  color="#3b3b3b"></box-icon>
                         <p>Telegram</p>
                     </a>
                 </div>
                 <div class="aside-content">
-                    <a href="https://github.com/Menemi" class="clear-link underline" target="_blank">
-                        <img src="images/github.png" alt="github" class="aside-picture">
-                    </a>
-                    <a href="https://github.com/Menemi" class="clear-link underline" target="_blank">
+                    <a href="https://github.com/Menemi" class="aside-single-line clear-link underline" target="_blank">
+                        <box-icon class="aside-picture theme-icon" name="github" type="logo" color="#ffffff"></box-icon>
+                        <box-icon class="aside-picture theme-icon-light" name="github" type="logo"
+                                  color="#3b3b3b"></box-icon>
                         <p>Github</p>
                     </a>
                 </div>
                 <div class="aside-content">
-                    <img src="images/email.png" alt="email" class="aside-picture">
+                    <box-icon class="aside-picture theme-icon" name="at" color="#ffffff"></box-icon>
+                    <box-icon class="aside-picture theme-icon-light" name="at" color="#3b3b3b"></box-icon>
                     <p>danila.titov1210@yandex.ru</p>
                 </div>
                 <div class="aside-content">
-                    <img src="images/location.png" alt="location" class="aside-picture">
+                    <box-icon class="aside-picture theme-icon" name="map" color="#ffffff"></box-icon>
+                    <box-icon class="aside-picture theme-icon-light" name="map" color="#3b3b3b"></box-icon>
                     <p>Russia, Saint Petersburg</p>
                 </div>
                 <div class="aside-content">
-                    <img src="images/university.png" alt="university" class="aside-picture">
+                    <box-icon class="aside-picture theme-icon" name="institution" type="solid"
+                              color="#ffffff"></box-icon>
+                    <box-icon class="aside-picture theme-icon-light" name="institution" type="solid"
+                              color="#3b3b3b"></box-icon>
                     <p>ITMO University</p>
                 </div>
             </aside>
@@ -75,7 +80,31 @@
                 <section class="projects-menu">
                     <section class="pinned-project">
                         <div class="project-header">
-                            <img src="images/repository.png" alt="repository" class="repository-picture">
+                            <box-icon class="repository-picture theme-icon" name="folder" color="#ffffff"></box-icon>
+                            <box-icon class="repository-picture theme-icon-light" name="folder"
+                                      color="#3b3b3b"></box-icon>
+                            <a href="https://github.com/Menemi/diabetes-diary"
+                               class="clear-link underline"
+                               target="_blank">
+                                Diabetes Diary
+                            </a>
+                        </div>
+                        <div class="project-footer">
+                            <div class="project-footer-single-line">
+                                <div class="color-circle cs-color-circle"></div>
+                                <p>C#</p>
+                            </div>
+                            <div class="project-footer-single-line">
+                                <div class="color-circle js-color-circle"></div>
+                                <p>React JS</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="pinned-project">
+                        <div class="project-header">
+                            <box-icon class="repository-picture theme-icon" name="folder" color="#ffffff"></box-icon>
+                            <box-icon class="repository-picture theme-icon-light" name="folder"
+                                      color="#3b3b3b"></box-icon>
                             <a href="https://github.com/Menemi/IS-2021-oop-3-sem"
                                class="clear-link underline"
                                target="_blank">
@@ -83,13 +112,17 @@
                             </a>
                         </div>
                         <div class="project-footer">
-                            <div class="color-circle cs-color-circle"></div>
-                            <p>C#</p>
+                            <div class="project-footer-single-line">
+                                <div class="color-circle cs-color-circle"></div>
+                                <p>C#</p>
+                            </div>
                         </div>
                     </section>
                     <section class="pinned-project">
                         <div class="project-header">
-                            <img src="images/repository.png" alt="repository" class="repository-picture">
+                            <box-icon class="repository-picture theme-icon" name="folder" color="#ffffff"></box-icon>
+                            <box-icon class="repository-picture theme-icon-light" name="folder"
+                                      color="#3b3b3b"></box-icon>
                             <a href="https://github.com/Menemi/IS-2022-Java-4-sem"
                                class="clear-link underline"
                                target="_blank">
@@ -97,13 +130,17 @@
                             </a>
                         </div>
                         <div class="project-footer">
-                            <div class="color-circle java-color-circle"></div>
-                            <p>Java</p>
+                            <div class="project-footer-single-line">
+                                <div class="color-circle java-color-circle"></div>
+                                <p>Java</p>
+                            </div>
                         </div>
                     </section>
                     <section class="pinned-project">
                         <div class="project-header">
-                            <img src="images/repository.png" alt="repository" class="repository-picture">
+                            <box-icon class="repository-picture theme-icon" name="folder" color="#ffffff"></box-icon>
+                            <box-icon class="repository-picture theme-icon-light" name="folder"
+                                      color="#3b3b3b"></box-icon>
                             <a href="https://github.com/Menemi/IS-2022-web-5-sem"
                                class="clear-link underline"
                                target="_blank">
@@ -111,25 +148,35 @@
                             </a>
                         </div>
                         <div class="project-footer">
-                            <div class="color-circle html-color-circle"></div>
-                            <p>HTML</p>
+                            <div class="project-footer-single-line">
+                                <div class="color-circle html-color-circle"></div>
+                                <p>HTML</p>
+                            </div>
                         </div>
                     </section>
                     <section class="pinned-project">
                         <div class="project-header">
-                            <img src="images/repository.png" alt="repository" class="repository-picture">
-                            <a href="https://youtu.be/dQw4w9WgXcQ" class="clear-link underline" target="_blank">
+                            <box-icon class="repository-picture theme-icon" name="folder" color="#ffffff"></box-icon>
+                            <box-icon class="repository-picture theme-icon-light" name="folder"
+                                      color="#3b3b3b"></box-icon>
+                            <a href="https://github.com/Menemi/IS-2023-web-6-sem"
+                               class="clear-link underline"
+                               target="_blank">
                                 ITMO-web-2023
                             </a>
                         </div>
                         <div class="project-footer">
-                            <div class="color-circle ts-color-circle"></div>
-                            <p>TypeScript</p>
+                            <div class="project-footer-single-line">
+                                <div class="color-circle ts-color-circle"></div>
+                                <p>TypeScript</p>
+                            </div>
                         </div>
                     </section>
                     <section class="pinned-project">
                         <div class="project-header">
-                            <img src="images/repository.png" alt="repository" class="repository-picture">
+                            <box-icon class="repository-picture theme-icon" name="folder" color="#ffffff"></box-icon>
+                            <box-icon class="repository-picture theme-icon-light" name="folder"
+                                      color="#3b3b3b"></box-icon>
                             <a href="https://github.com/Menemi/IS-2020-prog-2-sem"
                                class="clear-link underline"
                                target="_blank">
@@ -137,13 +184,17 @@
                             </a>
                         </div>
                         <div class="project-footer">
-                            <div class="color-circle cpp-color-circle"></div>
-                            <p>C++</p>
+                            <div class="project-footer-single-line">
+                                <div class="color-circle cpp-color-circle"></div>
+                                <p>C++</p>
+                            </div>
                         </div>
                     </section>
                     <section class="pinned-project">
                         <div class="project-header">
-                            <img src="images/repository.png" alt="repository" class="repository-picture">
+                            <box-icon class="repository-picture theme-icon" name="folder" color="#ffffff"></box-icon>
+                            <box-icon class="repository-picture theme-icon-light" name="folder"
+                                      color="#3b3b3b"></box-icon>
                             <a href="https://github.com/Menemi/IS-2020-algo-1-sem"
                                class="clear-link underline"
                                target="_blank">
@@ -151,13 +202,17 @@
                             </a>
                         </div>
                         <div class="project-footer">
-                            <div class="color-circle cpp-color-circle"></div>
-                            <p>C++</p>
+                            <div class="project-footer-single-line">
+                                <div class="color-circle cpp-color-circle"></div>
+                                <p>C++</p>
+                            </div>
                         </div>
                     </section>
                     <section class="pinned-project">
                         <div class="project-header">
-                            <img src="images/repository.png" alt="repository" class="repository-picture">
+                            <box-icon class="repository-picture theme-icon" name="folder" color="#ffffff"></box-icon>
+                            <box-icon class="repository-picture theme-icon-light" name="folder"
+                                      color="#3b3b3b"></box-icon>
                             <a href="https://github.com/Menemi/IS-2020-algo-2-sem"
                                class="clear-link underline"
                                target="_blank">
@@ -165,8 +220,10 @@
                             </a>
                         </div>
                         <div class="project-footer">
-                            <div class="color-circle cpp-color-circle"></div>
-                            <p>C++</p>
+                            <div class="project-footer-single-line">
+                                <div class="color-circle cpp-color-circle"></div>
+                                <p>C++</p>
+                            </div>
                         </div>
                     </section>
                 </section>
