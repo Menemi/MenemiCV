@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 html,
 body {
@@ -396,6 +396,37 @@ li {
     background-color: #f34b7d;
 }
 
+.preloader {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 719px;
+    height: 233px;
+    background-color: rgb(28, 33, 40);
+    border-radius: 1rem;
+}
+
+.light .preloader {
+    display: none;
+}
+
+.preloader-light {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 719px;
+    height: 233px;
+    background-color: rgb(246, 248, 250);
+    border-radius: 1rem;
+}
+
+.loader {
+    width: 7rem;
+    height: 7rem;
+}
+
 .activity-time-table {
     display: flex;
     flex-direction: column;
@@ -403,6 +434,8 @@ li {
     padding: 20px;
     border: 3px solid #424242;
     border-radius: 15px;
+    width: 719px;
+    height: 233px;
 }
 
 .theme-switcher {
@@ -446,6 +479,8 @@ li {
     padding: 20px;
     border: 3px solid #818181;
     border-radius: 15px;
+    width: 719px;
+    height: 233px;
 }
 
 .activity-time-table-link {

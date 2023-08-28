@@ -3,10 +3,10 @@ function handleLocationChange(location) {
 
     for (let i = 0; i < element.length; i++) {
         if (location === element[i].href) {
-            element[i].classList.add('active');
+            element[i].classList.add("active");
         }
     }
 }
 
-document.addEventListener('DOMContentLoaded',
+document.addEventListener("DOMContentLoaded",
     () => handleLocationChange(document.location.href));

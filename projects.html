@@ -9,6 +9,7 @@
     <link href="images/beer.png" rel="icon">
     <link href="css/index.css" rel="stylesheet">
     <script src="js/highlight-active-page.js"></script>
+    <script src="js/preloader.js"></script>
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 </head>
 
@@ -228,13 +229,19 @@
                     </section>
                 </section>
                 <a href="https://github.com/Menemi" class="clear-link">
-                    <figure class="activity-time-table">
+                    <div class="activity-time-table">
+                        <div class="preloader" id="preloader">
+                            <box-icon name="loader-circle" animation="spin" color="#ffffff" class="loader"></box-icon>
+                        </div>
                         <h2>Coding Activity (Last Year)</h2>
                         <embed src="https://wakatime.com/share/@Menemi/cfda25ce-c4d1-4d64-99e9-348fca4eaa66.svg">
-                    </figure>
+                    </div>
                 </a>
                 <a href="https://github.com/Menemi" class="clear-link">
                     <figure class="activity-time-table-light">
+                        <div class="preloader-light" id="preloader-light">
+                            <box-icon name="loader-circle" animation="spin" color="#3b3b3b" class="loader"></box-icon>
+                        </div>
                         <h2>Coding Activity (Last Year)</h2>
                         <embed src="https://wakatime.com/share/@Menemi/1b1fe25b-47bb-4759-b49f-a9345a3c7013.svg">
                     </figure>
