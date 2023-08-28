@@ -9,6 +9,7 @@
     <link href="images/beer.png" rel="icon">
     <link href="css/index.css" rel="stylesheet">
     <script src="js/highlight-active-page.js"></script>
+    <script src="node_modules/boxicons/dist/boxicons.js"></script>
 </head>
 
 <body>
@@ -17,12 +18,10 @@
         <header>
             <h1><a href="index.html" class="clear-link">Menemi's CV</a></h1>
             <div>
-                <div class="section gallery">
-                    <a href="#" class="theme-switcher">
-                        <img src="images/dd.png" class="theme-icon" alt="theme-pic">
-                        <img src="images/ll.png" class="theme-icon-light" alt="theme-pic">
-                    </a>
-                </div>
+                <a href="#" class="theme-switcher">
+                    <box-icon class="theme-icon" name="moon" color="#ffffff" size="lg"></box-icon>
+                    <box-icon class="theme-icon-light" name="sun" color="#3b3b3b" size="lg"></box-icon>
+                </a>
             </div>
         </header>
 
@@ -37,31 +36,37 @@
                     <h4>Menemi</h4>
                 </div>
                 <div class="aside-content">
-                    <a href="https://t.me/Menemi" class="clear-link underline" target="_blank">
-                        <img src="images/telegram.png" alt="telegram" class="aside-picture">
-                    </a>
-                    <a href="https://t.me/Menemi" class="clear-link underline" target="_blank">
+                    <a href="https://t.me/Menemi" class="aside-single-line clear-link underline" target="_blank">
+                        <box-icon class="aside-picture theme-icon" name="telegram" type="logo"
+                                  color="#ffffff"></box-icon>
+                        <box-icon class="aside-picture theme-icon-light" name="telegram" type="logo"
+                                  color="#3b3b3b"></box-icon>
                         <p>Telegram</p>
                     </a>
                 </div>
                 <div class="aside-content">
-                    <a href="https://github.com/Menemi" class="clear-link underline" target="_blank">
-                        <img src="images/github.png" alt="github" class="aside-picture">
-                    </a>
-                    <a href="https://github.com/Menemi" class="clear-link underline" target="_blank">
+                    <a href="https://github.com/Menemi" class="aside-single-line clear-link underline" target="_blank">
+                        <box-icon class="aside-picture theme-icon" name="github" type="logo" color="#ffffff"></box-icon>
+                        <box-icon class="aside-picture theme-icon-light" name="github" type="logo"
+                                  color="#3b3b3b"></box-icon>
                         <p>Github</p>
                     </a>
                 </div>
                 <div class="aside-content">
-                    <img src="images/email.png" alt="email" class="aside-picture">
+                    <box-icon class="aside-picture theme-icon" name="at" color="#ffffff"></box-icon>
+                    <box-icon class="aside-picture theme-icon-light" name="at" color="#3b3b3b"></box-icon>
                     <p>danila.titov1210@yandex.ru</p>
                 </div>
                 <div class="aside-content">
-                    <img src="images/location.png" alt="location" class="aside-picture">
+                    <box-icon class="aside-picture theme-icon" name="map" color="#ffffff"></box-icon>
+                    <box-icon class="aside-picture theme-icon-light" name="map" color="#3b3b3b"></box-icon>
                     <p>Russia, Saint Petersburg</p>
                 </div>
                 <div class="aside-content">
-                    <img src="images/university.png" alt="university" class="aside-picture">
+                    <box-icon class="aside-picture theme-icon" name="institution" type="solid"
+                              color="#ffffff"></box-icon>
+                    <box-icon class="aside-picture theme-icon-light" name="institution" type="solid"
+                              color="#3b3b3b"></box-icon>
                     <p>ITMO University</p>
                 </div>
             </aside>
@@ -84,15 +89,31 @@
                             <p>Разработка информационных систем и технологий</p>
                         </div>
                     </div>
+                    <h2 class="description-title">Места работы</h2>
+                    <div class="sub-content">
+                        <p class="description-area">05.2023 — Now</p>
+                        <div class="content-area">
+                            <p class="university"><b>Kreativ RUS (.NET Backend developer)</b></p>
+                            <p>Разработка системы управления производственными процессами (MES) в рамках backend
+                                направления, а именно: исправления багов существующей системы, а также дополнения её
+                                новыми функциями</p>
+                            <p>C# использовался, как основной язык проекта, ASP.NET Core и Entity Framework, как
+                                вспомогательные фреймворки</p>
+                        </div>
+                    </div>
                     <h2 class="description-title">Дополнительная информация</h2>
                     <div class="sub-content">
                         <p class="description-area">Обо мне</p>
                         <div class="content-area">
-                            <p>В последние годы обучался в университете ИТМО без возможности работать</p>
-                            <p>Писал различные проекты на C# и Java, из-за чего считаю, что знаю о принципах ООП, Rest
-                                API и т.п.</p>
-                            <p>Знаком и способен работать с такими БД, как: MS SQL, MySQL, SQLite</p>
-                            <p>Также знаком с frontend-разработкой (.html, .css, .hbs, .js)</p>
+                            <p>На данный момент учусь в университете ИТМО на 4 курсе. Проходил летнюю практику после 3
+                                курса. Параллельно работе изучаю frontend направление разработки: React, NodeJS. Во
+                                время обучения в университете писал различные проекты на C# и Java, знаю о принципах
+                                ООП, Rest API и т.п.</p>
+                            <p>Также написал огромное количество Telegram ботов с абсолютно разным функционалом:
+                                позволяющий удобно вести дневник диабетикам и следить за своей болезнью в целом;
+                                автоматизирующий очередь на какой-либо дисциплине; обрабатывающий и перенаправляющий
+                                сообщения от абитуриентов в чат поддержки; развлекательный для чата группы</p>
+                            <p>Знаком и способен работать с такими БД, как: Microsoft SQL Server, PostgreSQL, SQLite</p>
                         </div>
                     </div>
                 </section>
