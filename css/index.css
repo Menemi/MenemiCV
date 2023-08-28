@@ -79,6 +79,11 @@ header {
     border-bottom: 5px solid #818181;
 }
 
+.theme-btn {
+    position: fixed;
+    right: 5%;
+}
+
 main {
     height: auto;
     display: flex;
@@ -167,6 +172,7 @@ main {
     color: #ffffff;
     justify-content: flex-start;
     line-height: normal;
+    margin-bottom: 2rem;
 }
 
 .light .sub-content {
@@ -399,12 +405,22 @@ li {
     border-radius: 15px;
 }
 
+.theme-switcher {
+    width: 3rem;
+    height: 3rem;
+}
+
 .light .theme-icon {
     display: none;
 }
 
 .theme-icon {
     display: block;
+}
+
+.theme-switcher:hover {
+    background-color: #999999;
+    border-radius: 25%;
 }
 
 .theme-icon-light {
@@ -496,13 +512,7 @@ li {
     }
 }
 
-@media screen and (max-width: 963px) {
-    .pinned-project {
-        width: 40%;
-    }
-}
-
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 1030px) {
     .sub-content {
         flex-direction: column;
     }
@@ -519,6 +529,24 @@ li {
         justify-content: flex-start;
         line-height: normal;
         flex-direction: column;
+    }
+
+    ul {
+        flex-direction: column;
+    }
+
+    li {
+        margin-bottom: 15px;
+    }
+
+    ul li::before {
+        content: "\2022\20\20\20\20\20";
+    }
+}
+
+@media screen and (max-width: 963px) {
+    .pinned-project {
+        width: 40%;
     }
 }
 
@@ -579,21 +607,9 @@ li {
     .pinned-project {
         width: 100%;
     }
-
-    ul {
-        flex-direction: column;
-    }
-
-    li {
-        margin-bottom: 15px;
-    }
-
-    ul li::before {
-        content: "\2022\20\20\20\20\20";
-    }
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 675px) {
     header h1 {
         font-size: 3.3rem;
     }
@@ -607,6 +623,23 @@ li {
     }
 }
 
+@media screen and (max-width: 540px) {
+    header h1 {
+        font-size: 2.7rem;
+    }
+
+    .heading-profile a {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .theme-switcher {
+        width: 2rem;
+        height: 2rem;
+    }
+}
+
 @media screen and (max-height: 450px) {
     header {
         display: none;
@@ -614,15 +647,5 @@ li {
 
     .heading-profile {
         margin-top: 20px;
-    }
-}
-
-@media screen and (max-width: 450px) {
-    header h1 {
-        font-size: 2.7rem;
-    }
-
-    .heading-profile a {
-        font-size: 18px;
     }
 }
