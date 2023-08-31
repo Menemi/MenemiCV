@@ -1,8 +1,9 @@
 function handleLocationChange(location) {
     let element = document.querySelectorAll(".tab");
     const homePage = "MenemiCV/";
+    const partUrl = `${document.location.protocol}//${document.location.host}/`
 
-    if (location.replace(document.location.protocol, "").replace(document.location.host, "").replace("///", "") === homePage) {
+    if (location.replace(partUrl, "") === homePage) {
         element[0].classList.add("active");
         return;
     }
