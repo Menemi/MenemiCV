@@ -226,8 +226,16 @@ main {
     color: #c4c4c4;
 }
 
+.light .content-area .job-link {
+    color: #3b3b3b;
+}
+
 .content-area .job-link:hover {
     text-decoration: underline 1px #c4c4c4;
+}
+
+.light .content-area .job-link:hover {
+    text-decoration: underline 1px #3b3b3b;
 }
 
 .light .content-area .university,
