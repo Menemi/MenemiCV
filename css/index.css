@@ -194,7 +194,7 @@ main {
 .description-area {
     width: 135px;
     margin-right: 10px;
-    text-align: end;
+    text-align: start;
     color: #ffffff;
     font-size: 1rem;
 }
@@ -213,7 +213,25 @@ main {
     color: #ffffff;
 }
 
-.light .content-area .university {
+.content-area .job {
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+.content-area .job-contacts {
+    margin: 0;
+}
+
+.content-area .job-link {
+    color: #c4c4c4;
+}
+
+.content-area .job-link:hover {
+    text-decoration: underline 1px #c4c4c4;
+}
+
+.light .content-area .university,
+.light .content-area .job {
     color: #000000;
 }
 
